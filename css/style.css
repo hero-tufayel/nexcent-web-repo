@@ -1,0 +1,455 @@
+.common-button a{
+   text-decoration: none;
+   background: #4CAF4F;
+   color: white;
+   font-size: 16px;
+   font-weight: 500;
+   font-family: "Inter", serif;
+   padding: 14px 32px;
+   border-radius: 4px;
+   display: inline-block;
+   border: 1px solid transparent;
+
+}
+.common-button a:hover{
+   background-color: white;
+   border: 1px solid #4CAF4F;
+   color: #4CAF4F;
+
+}
+
+.box{
+    display: flex;
+}
+/* nav part start */
+nav{
+    background: #F5F7FA;
+    padding: 30px 0  !important;
+}
+
+nav .nav-item{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Inter", serif;
+    color: #18191F;
+
+}
+
+nav .nav-button a{
+    text-decoration: none;
+    background: #F5F7FA;
+    color: #4CAF4F;
+    font-family: "Inter", serif;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 6px;
+    margin-left: 10px;
+    border: 1px solid #4CAF4F;
+}
+nav .nav-button a:last-child{
+    text-decoration: none;
+    background: #4CAF4F;
+    color: white;
+    font-family: "Inter", serif;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 6px;
+    margin-left: 10px;
+    border: 1px solid #4CAF4F;
+}
+nav .nav-button a:last-child:hover{
+    background: white;
+    color: #4CAF4F;
+}
+nav .nav-button a:hover{
+    background: #4CAF4F;
+    color: white;
+}
+
+/* nav part end */
+
+/* lesson part start */
+.lessons {
+    background: #F5F7FA;
+    padding: 80px 0;
+    
+}
+.lessons .lesson1{
+    padding-left: 30px !important;
+}
+.lessons h1{
+    
+    font-size: 64px;
+    font-weight: 600;
+    font-family: "Inter", serif;
+    color: #4D4D4D;
+
+}
+.lessons h1 span{
+    
+    color: #4CAF4F;
+}
+.lessons p{
+    color: #717171;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Inter", serif;
+    padding-top: 16px;
+    padding-bottom: 32px;
+
+}
+.lessons .image1{
+    padding-left: 42px !important;
+}
+/* lesson part end */
+/* client part start */
+.client{
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 40px;
+}
+
+ .common-heading{
+    font-size: 36px;
+    font-weight: 600;
+    font-family: "Inter", serif;
+    color: #4D4D4D;
+}
+.client p{
+    color: #717171;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Inter", serif;
+}
+
+/* client part end */
+
+/* Banner part start */
+.banner{
+    padding: 20px 0;
+}
+/* Banner part End */
+/* manage part start */
+.manage{
+    text-align: center;
+    padding: 40px 0;
+}
+.manage h2{
+    width: 475px;
+    margin: 0 auto;
+}
+.manage p{
+    color: #717171;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Inter", serif;
+    padding-top: 8px;
+    padding-bottom: 10px;
+}
+/* manage part end */
+/* community cart part start */
+.community-cart{
+    padding-top: 16px;
+    padding-bottom: 40px;
+}
+.community-cart .card{
+    width: 100% !important;
+    padding: 0 48px;
+    text-align: center;
+    -webkit-box-shadow: 0px 4px 4px 0px rgba(171,190,209,1);
+-moz-box-shadow: 0px 4px 4px 0px rgba(171,190,209,1);
+box-shadow: 0px 4px 4px 0px rgba(171,190,209,1);
+}
+.community-cart .card img{
+    width: 65px;
+    margin: 0 auto;
+}
+.community-cart .card-title{
+    font-size: 36px;
+    font-weight: 500;
+    font-family: "Inter", serif;
+    color: #4D4D4D;
+    
+}
+.community-cart .card-text{
+    color: #717171;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Inter", serif;
+    width: 250px;
+    
+}
+/* community cart part end */
+/* unseen part Start */
+.unseen{
+    padding-top: 48px ;
+}
+.unseen h2{
+    width: 580px;
+}
+.unseen p{
+    color: #717171;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Inter", serif;
+    padding-top: 16px;
+    padding-bottom: 32px;
+}
+.unseen .col-lg-7{
+    padding: 80px 0;
+}
+/* unseen part end */
+/* business part start */
+.busines{
+    background: #F5F7FA;
+    margin-top: 48px;
+    padding: 64px 0;
+}
+
+.busines h3 span{
+    color: #4CAF4F;
+}
+.busines h3 {
+    width: 390px;
+}
+.busines p {
+    color: #717171;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Inter", serif;
+}
+.busines .box{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 25px;
+}
+
+.busines .box .details{
+    width: 48%;
+    display: flex;
+    column-gap: 10px;
+    
+}
+
+
+/* business part end */
+/* meacians part start */
+.meacians{
+    background: #F5F7FA;
+    padding: 32px;
+}
+.meacians p{
+    color: #717171;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Inter", serif;
+}
+.meacians h4{
+    color: #4CAF4F;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Inter", serif;
+}
+.meacians .meet-part{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 32px;
+}
+.meacians .meet-part p{
+    color: #4CAF4F;
+    
+}
+.meacians .meet-part p i{
+    padding-left: 10px;
+    
+}
+/* meacians part end */
+/* merketing part start */
+.marketing{
+   text-align: center;
+   padding-top: 32px;
+   padding-bottom: 16px;
+}
+.marketing p{
+     width: 597px; 
+     margin: 0 auto;
+     color: #717171;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Inter", serif;
+}
+.marketing h2{
+    color: #4D4D4D;
+    font-size: 36px;
+    font-weight: 500;
+    font-family: "Inter", serif;
+}
+/* merketing part end */
+/* cart-part part start */
+.card-part{
+    padding-bottom: 94px;
+}
+.card-part .col-lg-4{
+    width: 32%;
+}
+.card-part .box{
+    justify-content: space-between;
+}
+.card-part .image-part{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    
+    
+}
+.card-part .image-part img{
+    width: 100%;
+    height: 100%;
+}
+.card-part .overlay{
+    width: 80%;
+    height: 170px;
+    -webkit-box-shadow: 0px 8px 16px 0px rgba(171,190,209,0.75);
+    -moz-box-shadow: 0px 8px 16px 0px rgba(171,190,209,0.75);
+    box-shadow: 0px 8px 16px 0px rgba(171,190,209,0.75);
+    background: #F5F7FA;
+    border-radius: 8px;
+    padding-top: 1;
+    position: absolute;
+    top: 210px;
+    left: 36px;
+    opacity: 0;  
+    
+    
+ }
+.card-part .image-part:hover .overlay{
+    opacity: 1;
+}    
+.card-part .overlay p{
+    width: 277px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 16px 0;
+    color: #717171;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Inter", serif;
+
+}
+.card-part .overlay h5{
+    text-align: center;
+    color: #4CAF4F;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Inter", serif;
+}
+.card-part .overlay h5:hover{
+    background: #4CAF4F;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Inter", serif;
+    padding: 14px 10px;
+    border-radius: 4px;
+}
+
+.card-part .overlay h5 i{
+    padding-left: 8px;
+}
+
+/* cart-part part end */
+/* suscipit part start */
+.suscipit{
+    background: #F5F7FA;
+    text-align: center;
+    padding: 32px 0;
+}
+.suscipit .common-button{
+    padding-top: 32px;
+}
+.suscipit i{
+   padding-left: 8px;
+
+}
+.suscipit p{
+    width: 842px;
+    margin: 0 auto;
+    font-size: 64px;
+    font-weight: 600;
+    font-family: "Inter", serif;
+    color: #4D4D4D;
+}
+/* suscipit part end */
+/* footer part start */
+.footer{
+    background: #263238;
+    padding: 64px 0;
+}
+.footer img{
+    padding-bottom: 40px;
+}
+.footer h6{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Inter", serif;
+    color: #F5F7FA;
+    
+}
+
+.footer .icon ul{
+    list-style: none;
+    display: flex;
+    column-gap: 16px;
+    align-items: left;
+    padding: 0;
+    margin: 0;
+    padding-top: 40px;
+    
+}
+.footer .icon ul li{
+   
+   color: #F5F7FA; 
+   font-size: 25px;
+}
+.footer .icon1 h4{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Inter", serif;
+    color: #F5F7FA; 
+    padding-bottom: 24px;
+}
+.footer .icon1 ul{
+   padding: 0;
+   margin: 0;
+   list-style: none;
+   display: grid;
+   row-gap: 12px;
+}
+.footer .icon1 ul li{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Inter", serif;
+    color: #F5F7FA;
+}
+
+.footer form input{
+    width: 255px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background: rgba(77, 77, 77, 1);
+    color: #D9DBE1;
+    padding: 10px;
+   
+}
+.footer .fa-regular{
+    position: relative;
+    left: 220px;
+    top: -30px;
+    color: #F5F7FA;
+}
+
+/* footer part end */
